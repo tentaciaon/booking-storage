@@ -1,0 +1,52 @@
+.facility-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .facility-title {
+    font-size: 1.5rem;
+    color: #0078d7;
+  }
+  
+  .facility-detail {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .slot-section {
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .slot-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .slot-option {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .no-slots {
+    color: red;
+  }
+  
+  .booking-buttons {
+    margin-top: 10px;
+  }
+  
+  .book-button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
