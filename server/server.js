@@ -11,7 +11,9 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors());
+
+// Enable CORS for your frontend
+app.use(cors({ origin: "https://booking-storage.vercel.app/" }));
 app.use(bodyParser.json());
 
 // Routes
